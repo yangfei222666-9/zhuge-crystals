@@ -55,9 +55,11 @@ python scripts/sync.py pull
 
 这是一个只读的 HTTPS GET，不携带任何本地数据。
 
-## 维护者
+## 维护 / Review
 
-[@yangfei222666-9](https://github.com/yangfei222666-9) — 人工审核每个 PR，保证池子质量
+每个 PR 都需要人工审核，重点检查字段白名单、匿名性、去重和统计合理性。
+
+请通过 GitHub Issue / Pull Request 沟通，不需要暴露贡献者真实身份。
 
 ## License
 
