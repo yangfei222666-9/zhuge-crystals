@@ -40,6 +40,13 @@
 （抽象统计，不含原始数据）
 ```
 
-## 自动化审核（计划中）
+## 自动化审核
 
-未来会加 GitHub Actions，自动用 JSON Schema 卡字段白名单 + 跑基本脱敏检查。PR 先走人工。
+GitHub Actions 会自动执行：
+
+```bash
+python scripts/validate_crystals.py crystals.jsonl
+```
+
+自动检查 JSONL 解析、字段白名单、禁用字段、统计阈值和 `crystal_id` 去重。
+PR 仍需要人工审核语义合理性。
