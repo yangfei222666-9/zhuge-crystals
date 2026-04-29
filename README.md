@@ -2,6 +2,8 @@
 
 > **匿名、脱敏、可审计**的决策晶体共享池，供 [zhuge-skill](https://github.com/yangfei222666-9/zhuge-skill) 消费。
 
+Agent data governance view: [AGENT_DATA_GOVERNANCE.md](AGENT_DATA_GOVERNANCE.md)
+
 ## 这里是什么
 
 zhuge-skill 运行在各地用户的本地机器上，经过大量预测 + 回传 + 结晶后，用户可以**自愿**把提炼出的**抽象晶体**贡献到这里，供全网 zhuge-skill 实例下载复用。
