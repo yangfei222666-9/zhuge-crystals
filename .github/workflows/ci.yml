@@ -21,3 +21,6 @@ jobs:
 
       - name: Validate JSONL schema and safety rules
         run: python scripts/validate_crystals.py crystals.jsonl
+
+      - name: Run validator unit tests
+        run: python -m unittest discover -s tests
